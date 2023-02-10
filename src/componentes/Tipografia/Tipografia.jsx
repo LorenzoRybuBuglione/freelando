@@ -2,7 +2,9 @@ import styled from "@emotion/styled"
 
 const componentes = {
     h1: 'h1',
-    body: 'p'
+    body: 'p',
+    body2: 'p',
+    legenda: 'p'
 }
 
 const estilos = {
@@ -15,6 +17,17 @@ const estilos = {
         font-weight: 400;
         font-size: 20px;
         line-height: 24px;
+    `,
+    body2: `
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+    `,
+    legenda: `
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
     `
 }
 
