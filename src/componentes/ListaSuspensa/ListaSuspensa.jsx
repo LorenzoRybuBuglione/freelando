@@ -75,6 +75,9 @@ export const ListaSupensa = ({ titulo, opcoes }) => {
                     setOpcaoSelecionada(opcoes[opcaoFocada])
                     break;
                 case 'Tab':
+                    setOpcaoFocada(null)
+                    alternarVisibilidade(false)
+                    break;
                 case 'Escape':
                     evento.preventDefault();
                     setOpcaoFocada(null)
